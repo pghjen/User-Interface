@@ -82,7 +82,11 @@ a {
   text-decoration: none;
   font-size: 20px;
   color: darkgrey;
-  margin: 0px 30px 5px 10px;
+  margin: 0px 20px 5px 20px;
+}
+
+nav a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .logo{
@@ -91,6 +95,7 @@ a {
   top: 7px;
   right: -20px;
 }
+
 h1 {
   font-size: 80px;
   display: inline-block;
@@ -104,9 +109,14 @@ h1 {
   border: 1px solid black;
   position: relative;
   margin: auto;
+  text-align: center;
   height: 40px;
   width: 200px;
   padding-top: 10px;
+}
+
+#button:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .headerImg {
